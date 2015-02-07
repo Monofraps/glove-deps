@@ -1,0 +1,10 @@
+[submodule "libpng"]
+	path = libpng
+	url = git@github.com:glennrp/libpng.git
+	branch = libpng16
+[submodule "zlib"]
+	path = zlib
+	url = git@github.com:madler/zlib.git
+[submodule "tclap"]
+	path = tclap
+	url = ./tclap
