@@ -1,0 +1,13 @@
+prefix=/home/monofraps/devel/glove/deps/linux64/zlib
+exec_prefix=/home/monofraps/devel/glove/deps/linux64/zlib
+libdir=/home/monofraps/devel/glove/deps/linux64/zlib/lib
+sharedlibdir=/home/monofraps/devel/glove/deps/linux64/zlib/lib
+includedir=/home/monofraps/devel/glove/deps/linux64/zlib/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

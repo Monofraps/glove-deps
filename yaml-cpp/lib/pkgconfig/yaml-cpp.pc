@@ -1,0 +1,11 @@
+prefix=/home/monofraps/devel/glove/deps/linux64/yaml-cpp
+exec_prefix=/home/monofraps/devel/glove/deps/linux64/yaml-cpp
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Yaml-cpp
+Description: A YAML parser and emitter for C++
+Version: 0.5.1
+Requires:
+Libs: -L${libdir} -lyaml-cpp
+Cflags: -I${includedir}
